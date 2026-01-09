@@ -1,6 +1,6 @@
 import React from 'react'
 import { Heart, Github, Linkedin, Mail, ArrowUp } from 'lucide-react'
-import data from '../data.json'
+import data from '../../data.json'
 
 const Footer: React.FC = () => {
   const { hero } = data

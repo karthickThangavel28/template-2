@@ -1,6 +1,6 @@
 import React from 'react'
 import { Github, Linkedin, Mail, Download, Twitter } from 'lucide-react'
-import data from '../data.json'
+import data from '../../data.json'
 
 const Hero: React.FC = () => {
   const { hero } = data

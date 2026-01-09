@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, Instagram } from 'lucide-react'
-import data from '../data.json'
+import data from '../../data.json'
 
 const Contact: React.FC = () => {
   const { contact } = data

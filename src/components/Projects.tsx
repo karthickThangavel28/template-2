@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Github, ExternalLink, Code, Star } from 'lucide-react'
-import data from '../data.json'
+import data from '../../data.json'
 
 const Projects: React.FC = () => {
   const { projects } = data
